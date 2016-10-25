@@ -63,3 +63,10 @@ spec:
         ]'
 ...
 ```
+### Hints
+
+* To use an insecure registry, do the following on each (non-master) node.
+```
+edit /etc/sysconfig/docker, by adding the line:
+INSECURE_REGISTRY='--insecure-registry YOUR_REGISTRY_ADDRESS:PORT'
+```
