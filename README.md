@@ -1,5 +1,8 @@
 # aerospike-kube
 
+This repo is no longer maintained and serves as a learning/experiemental repo. The officially supported repo is over at:
+https://github.com/aerospike/aerospike-kubernetes.
+
 This project contains the init container used in Kubernetes (k8s) and the aerospike petset definition
 
 ## Usage:
